@@ -1,0 +1,808 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+/* heading part */
+
+.head {
+  height: 100px;
+  width: 100%;
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+  background-color:#d10911;
+  
+}
+.hlogo i{
+  float: left;
+  margin-left: 70px;
+  margin-top: 27px;
+  font-size: 40px;
+}
+
+.headimg {
+  height: 70px;
+  width: 30%;
+  float: left;
+  margin-top: 16px;
+}
+
+.headimg img {
+  height: 90px;
+  width: 60%;
+  padding-bottom: 10px;
+}
+
+
+.searchbar {
+  float: left;
+  height: 70px;
+  width: 27%;
+
+  margin-top: 30px;
+
+
+}
+
+.searchbar input {
+  padding: 8px 74px 10px 6px;
+  padding-left: 10px;
+  border-radius: 8px;
+  font-size: 16px;
+  color: darkgreen;
+}
+
+#icon {
+  background: url("https://static.thenounproject.com/png/101791-200.png") no-repeat right;
+  padding-right: 92px;
+  background-size: 34px;
+ background-color: white;
+ outline: none;
+
+}
+.profile{
+  width: 16%;
+  float: left;
+  margin-left: 26px;
+}
+.cart{
+  width: 8%;
+  float: right;
+}
+
+
+.mobile {
+  float: left;
+  width: 15%;
+  margin-top: 35px;
+  font-size: 18px;
+
+}
+
+.mobile a {
+  text-decoration: none;
+  font-family: "Montserrat";
+  color: white;
+  font-size: 20px;
+}
+.profile{
+  height: 20px;
+  width: 20px;
+}
+.profile a i{
+  font-size: 10px;
+  color: white;
+}
+.fa
+{
+  color: white;
+    font-size: 15px;
+    margin-top: 0px;
+}
+#usericon i{
+  font-size: 40px;
+  margin-top: 30px;
+  margin-right: 54px;
+  float: right;
+}
+
+.head h3{
+  font-family: "Montserrat";
+  color: white;
+  margin-top: 39px;
+  font-size: 20px;
+}
+/* menu list */
+.list{
+  height: 130px;
+  width: 100%;
+  margin-top: -9px;
+  border-bottom: 1px solid gray;
+  text-decoration: none;
+ 
+
+  color: gray;
+  /* background-image: url(https://img.freepik.com/free-photo/pink-background-with-palm-tree_53876-110806.jpg?w=740&t=st=1688967526~exp=1688968126~hmac=c210b9c0d682a2926c897ca4ac20e603b9ec9fba2f5bae98bf2918f078b6ea81); */
+  background-repeat: none;
+  
+
+
+  
+
+}
+.list ul {
+  width:auto;
+  height: auto;
+  text-decoration: none;
+  
+}
+
+.list li{
+  list-style: none;
+float: left;
+  text-decoration: none;
+  padding-left: 30px;
+  margin-right: 20px;
+  padding-top: 90px;
+
+  
+}
+#login{
+  text-decoration: none;
+  color:#d10911;
+  font-size: 18px;
+  font-family: 'Secular One', sans-serif;
+ 
+  }
+.list li:link{
+  text-decoration: none !important;
+}
+#lnk{
+  text-decoration: none;
+  color:#d10911;
+  font-size: 18px;
+  position: relative;
+  right: 62px;
+  font-family: "Montserrat";
+  
+}
+#lnk1{
+  text-decoration: none;
+  color:#d10911;
+  font-size: 18px;
+  position: relative;
+  right: 62px;
+  font-family: "Montserrat";
+}
+#lnk2{
+  text-decoration: none;
+  color:#d10911;
+   position: relative;
+   right: 45px;
+ 
+  font-size: 18px;
+  font-family: "Montserrat";
+}
+#lnk3{
+  text-decoration: none;
+  color:#d10911;
+  font-size: 18px;
+  position: relative;
+  right: 24px;
+  padding-right: 25px;
+
+  font-family: "Montserrat";
+  
+}
+#cart1{
+  text-decoration: none;
+  color:#c7003d;
+  font-size: 18px;
+  font-family: 'Secular One', sans-serif;
+  
+ 
+  
+}
+.Offer{
+  color: black;
+  position: relative;
+  top: -160px;
+}
+
+/* banner */
+.scroll-container {
+  
+  overflow: auto;
+  
+  
+}
+
+.scroll-container img {
+  padding-left: 20px;
+  
+}
+.scroll-container2 {
+  width: 100%;
+  height: 740px;
+
+  overflow: auto;
+  
+  padding: 10px;
+}
+.scroll-container2 video {
+  width: 100%;
+  padding: 30px;
+  height: 740px;
+  
+
+}
+#img3{
+  height: 600px;
+  }
+  #img2{
+    height: 600px;
+    }
+  
+#vid{
+  width: 100%;
+}
+/* banner head */
+.bannerhead {
+  width: 100%;
+  position: relative;
+  overflow: auto;
+  white-space: nowrap;
+  
+}
+
+.bannerhead img {
+  padding-left: 50px;
+  
+
+}
+
+
+
+/* mens */
+.container1{
+  width: 100%;
+  margin: 0 auto;
+}
+.cloths{
+  width: 100%;
+  height:1000px ;
+ float: left;
+}
+.coloum{
+  width: 20%;
+  height: 500px;
+  background-color: white;
+  float: left;
+  margin-left: 130px;
+  margin-top: 15px;
+  border-radius: 2px;
+}
+.coloum img{
+  height: 400px;
+  width: 100%;
+  border-radius: 20px;
+  box-shadow: 10px 4px 5px 5px #d10911;
+}
+.coloum p{
+font-family: 'Secular One', sans-serif;
+padding-top: 15px;
+}
+
+
+/* womens */
+.container4{
+  width: 100%;
+  margin: 0 auto;
+}
+
+.womens{
+  width: 100%;
+  height:1550px ;
+float: left;
+}
+
+.wom1{
+  width: 20%;
+  height: 550px;
+  background-color: white;
+  float: left;
+  margin-left: 130px;
+  margin-top: 15px;
+  border-radius: 2px;
+}
+.wom1 img{
+  width: 100%;
+  height: 400px;
+  border-radius: 20px;
+  box-shadow: 10px 4px 5px 6px #d10911;
+
+}
+.wom1 p{
+  font-family: 'Secular One', sans-serif;
+  padding-top: 15px;
+}
+#mens{
+  width: 700px;
+  height: 500px;
+}
+
+
+
+/* kids */
+.container3{
+  width: 100%;
+  margin: auto; 
+  }
+
+  .kids{
+    width: 100%;
+    height:1550px ;
+   float: left;
+  }
+  
+  .child{
+    width: 20%;
+    height: 550px;
+    background-color: white;
+    float: left;
+    margin-left: 150px;
+    margin-top: 15px;
+    border-radius: 20px;
+  }
+  
+  .child img{
+    width: 100%;
+    height: 400px;
+    border-radius: 20px;
+    box-shadow: 10px 4px 5px 6px #d10911;
+  }
+  
+  .child p{
+    font-family: 'Secular One', sans-serif;
+    padding-top: 15px;
+  }
+
+  #ms1{
+    width: 300px;
+    height: 300px;
+  }
+
+
+/* profile */
+ 
+
+  .container2{
+    border: 1px solid;
+    margin: 100% auto;
+    width: 400px;
+    height: 500px;
+    border-radius: 10px;
+    position: relative;
+    margin-top: 50px;
+  
+  }
+  #buttonlog{
+    margin-top: 10px;
+    width: 70px;
+    background-color: #e99598;
+    color: black;
+    border-radius: 10px;
+  }
+  #but{
+    width: 180px;
+    margin-left: 10px;
+    margin-top: 20px;
+    background-color: #e99598;
+    color: black;
+    border-radius: 20px;
+  
+
+  }
+  
+  *{
+    text-align: center;
+    padding-top: 0%;
+  }
+  
+  .container2 label{
+    float: left;
+    padding-left: 10px;
+  }
+  
+  .container2 h2{
+    padding-top: 5px;
+    color:black;
+    font-family: "Montserrat";
+  }
+  .para p{
+    margin-top: 280px;
+    padding: 20px;
+  }
+  
+  #name{
+    width: 250px;
+    height: 25px;
+    margin-left: 29px;
+    text-align: left;
+    outline: none;
+  }
+  
+  #email{
+    width: 250px;
+      height: 25px;
+      margin-left: 32px;
+      outline: none;
+      text-align: left;
+  }
+  
+  #number{
+    width: 250px;
+    height: 25px;
+    margin-left: 13px;
+    outline: none;
+    text-align: left;
+  }
+  
+  #password{
+    width: 250px;
+    height: 25px;
+    margin-left: 6px;
+    text-align: left;
+    outline: none;
+  }
+
+  .name{
+    float: left;
+    outline: none;
+    margin-left: 20px;
+  }
+  
+  .email{
+    padding-top: 20px;
+    float: left;
+    outline: none;
+    margin-left: 20px;
+  }
+  
+  .number{
+    padding-top: 20px;
+    float: left;
+    outline: none;
+    margin-left: 20px;
+  }
+  
+  .password{
+    padding-top: 20px;
+    float: left;
+    outline: none;
+    margin-left: 20px;
+  }
+  
+  .button{
+    height: 26px;
+    width: 190px;
+    margin-top: 10px;
+    border-radius: 11px;
+    margin-left: 100px;
+  }
+
+
+
+  /* :Login */
+
+  .lgin{
+    height: 300px;
+    width: 300px;
+    border: 1px solid;
+    border-radius: 20px;
+    margin: 0 auto;
+    margin-top: 50px;
+  }
+  .lgin h3{
+    font-family: "Montserrat"
+  }
+  .lginlabel label{
+    float: left;
+    margin-left: 10px;
+  }
+  .lginlabel a{
+    text-decoration: none;
+    color: #f47500;
+  }
+  #pass{
+    padding-left: 14px;
+    height: 20px;
+    margin-left: 4px;
+    outline: none;
+  }
+  
+  
+  #user{
+    padding-left: 13px;
+    height: 20px;
+    outline: none;
+  }
+  #logbut{
+    width: 100px;
+    border-radius: 10px;
+    background-color:#e99598;
+    color: black ;
+  }
+  
+  /* footer */
+
+  .container10{
+
+    width: 90% !important;
+  
+    margin: 0 auto;
+  }
+    
+    
+      
+      .footerone{
+      
+        width: 100%;
+      
+        height: 280px;
+      
+        background-color:#eb6161;
+      
+      }
+      #serfooter{
+        margin-top: 17px;
+      }
+      #add{
+        margin-top: 10px;
+      }
+      
+      .aboutus{
+      
+        width: 28%;
+      
+        height: 280px;
+      
+        float: left;
+      
+        margin-left: 56px;
+      
+       
+      
+       
+      
+      }
+      
+      .aboutus h2{
+      
+      text-align: left;
+      
+      padding-left: 20px;
+      
+      font-size: 28px;
+      
+      font-weight: 700;
+      
+      text-transform: uppercase;
+      
+      color: white;
+      
+      }
+      
+      .aboutus p{
+      
+        text-align: left;
+      
+        padding-left: 20px;
+      
+        font-size: 14px;
+      
+          line-height: 9.3px;
+      
+          color: white;
+      
+      }
+   
+    .footerup  {
+      
+      width: 65%;
+      height: 60px;
+      
+      
+      
+      
+      } 
+      
+      .footerup ul{
+      
+        width: 50%;
+        display: flex;
+      
+        height: auto;
+      
+        margin-left: -39px;
+      
+       
+      
+      }
+      
+      .footerup li {
+        float: left;
+        list-style: none;
+        margin-left: 0px;
+        color: white;
+        margin-top: -55px;
+    
+      }
+      #fb{
+        width: 20%;
+        height: 50px;
+        font-size: 30px;
+        margin-left: 25px;
+      }
+      #lnkdin{
+        width: 20%;
+        height: 50px;
+        font-size: 30px;
+        margin-left: -30px;
+      }
+      #twt{
+        width: 20%;
+        height: 50px;
+        font-size: 30px;
+        margin-left: -30px;
+      }
+      #insta{
+        width: 20%;
+        height: 50px;
+        font-size: 30px;
+        margin-left: -30px;
+      }
+      
+     
+     
+
+  /* logo */
+
+.log li{
+  float: left;
+  position: relative;
+  left: 430PX;
+  bottom: 80PX;
+
+    
+}
+   
+  .home img{
+    border-radius: 0%;
+    width:70px ;
+    height: 70px;
+   
+  }
+  .men img{
+    border-radius: 50%;
+    width:70px ;
+    height: 70px;
+   
+  
+
+  }
+  .women img{
+    border-radius: 50%;
+    width:70px ;
+    height: 70px;
+    
+
+  }
+  .kid1 img{
+    border-radius: 50%;
+    width:70px ;
+    height: 70px;
+   
+
+  }
+  .cart img{
+    border-radius: 50%;
+    width:70px ;
+    height: 70px;
+   
+  
+
+  }
+  .profile1 img{
+    border-radius: 50%;
+    width:70px ;
+    height: 70px;
+  
+  
+  }
+  /* banner */
+  .photo1 {
+    width: 100%;
+    height: 700px;
+  align-items: center;
+    
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}

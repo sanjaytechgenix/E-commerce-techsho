@@ -1,0 +1,478 @@
+const list = [
+    {
+      id: 1,
+      title: "Levie's",
+      price: 999,
+     img: "m1.png",
+      amount: 1,
+    },
+    {
+      id: 2,
+      title: "Puma",
+      price: 1200,
+      img: "m2.png",
+      amount: 1,
+    },
+    {
+      id: 3,
+      title: "USPA",
+      price: 1400,
+      img: "m3.png",
+      amount: 1,
+    },
+    {
+      id: 4,
+      title: "Allen solly",
+      price: 1000,
+      img: "m4.png",
+      amount: 1,
+    },
+    {
+      id: 5,
+      title: "Adidas",
+      price: 2500,
+      img: "m5.png",
+      amount: 1,
+    },
+    {
+        id: 6,
+        title: "Lee",
+        price: 4000,
+        img: "m6.png",
+        amount: 1,
+      },
+      {
+        id: 7,
+        title: "LP ",
+        price: 800,
+        img: "m7.png",
+        amount: 1,
+      },
+      {
+        id: 8,
+        title: "Spykar",
+        price: 2000,
+        img: "m8.png",
+        amount: 1,
+      },
+      {
+        id: 9,
+        title: "Rare Rabbit ",
+        price: 1300,
+        img: "m9.png",
+        amount: 1,
+      },
+      {
+        id: 10,
+        title: "park Avenue",
+        price: 1250,  
+        img: "m10.png",
+        amount: 1,
+      },
+      {
+        id: 11,
+        title: "Flying Machine",
+        price: 3100,
+        img: "m11.png",
+        amount: 1,
+      },
+      {
+        id: 12,
+        title: "H&M",
+        price: 1390,
+        img: "m12.png",
+        amount: 1,
+      },
+      {
+        id: 13,
+        title: "H&M",
+        price: 1390,
+        img: "m13.png",
+        amount: 1,
+      },
+      {
+        id: 14,
+        title: "H&M",
+        price: 1390,
+        img: "m14.png",
+        amount: 1,
+      },
+      {
+        id: 15,
+        title: "H&M",
+        price: 1390,
+        img: "m16.png",
+        amount: 1,
+      },
+      {
+        id: 16,
+        title: "H&M",
+        price: 850,
+        img: "mp.1.png",
+        amount: 1,
+      },
+      {
+        id: 17,
+        title: "H&M",
+        price: 1200,
+        img: "mp.1.png",
+        amount: 1,
+      },
+      {
+        id: 18,
+        title: "H&M",
+        price: 1000,
+        img: "mp.2.png",
+        amount: 1,
+      },
+      {
+        id: 19,
+        title: "H&M",
+        price: 500,
+        img: "mp.3.png",
+        amount: 1,
+      },
+      {
+        id: 20,
+        title: "H&M",
+        price: 950,
+        img: "mp1.png",
+        amount: 1,
+        },
+      {
+        id: 21,
+        title: "H&M",
+        price: 700,
+        img: "mpp.png",
+        amount: 1,
+      },
+      {
+        id: 22,
+        title: "H&M",
+        price: 999,
+        img: "mpp1.png",
+        amount: 1,
+      },
+      {
+        id: 23,
+        title: "H&M",
+        price: 1500,
+        img: "mp4.png",
+        amount: 1,
+      },
+      {
+        id: 24,
+        title: "H&M",  
+        price: 1390, 
+        img: "mp5.png",
+        amount: 1,
+  
+      },
+      {
+        id: 25,
+        title: "H&M",
+        price: 1230,  
+        img: "mp6.png",
+        amount: 1,
+
+      },
+      {
+        id: 26,
+        title: "H&M",
+        price: 1000,
+        img: "mp7.png",
+        amount: 1,
+      },
+      {
+        id: 27,
+        title: "H&M",
+        price: 1250,
+        img: "mp8.png",
+        amount: 1,
+      },
+      {
+        id: 28,
+        title: "H&M",
+        price: 1200,
+        img: "mp9.png",
+        amount: 1,
+      },
+      {
+        id: 29,
+        title: "H&M",
+        price: 1050,
+        img: "w1.png",
+        amount: 1,
+      },
+      {
+        id: 30,
+        title: "H&M",
+        price: 1250,
+        img: "w2.png",
+        amount: 1,
+
+      },
+      {
+        id: 31,
+        title: "H&M",
+        price: 1500,
+        img: "w3.png",
+        amount: 1,
+      },
+      {
+        id: 32,
+        title: "H&M",
+        price: 999,
+        img: "w4.png",
+        amount: 1,
+      },
+      {
+        id: 33,
+        title: "H&M",
+        price: 800,
+        img: "w5.png",
+        amount: 1,
+      },
+      {
+        id: 34,
+        title: "H&M",
+        price: 1200,
+        img: "w6.png",
+        amount: 1,
+      },
+      {
+        id: 35,
+        title: "H&M",
+        price: 1300,
+        img: "wp.1.png",
+        amount: 1,
+      },
+      {
+        id: 36,
+        title: "H&M",
+        price: 1000,
+        img: "wp.2.png",
+        amount: 1,
+      },
+      {
+        id: 36,
+        title: "H&M",
+        price: 1000,
+        img: "wp.2.png",
+        amount: 1,
+      },
+      {
+        id: 36,
+        title: "H&M",
+        price: 1000,
+        img: "wp.3.png",
+        amount: 1,
+      },
+      {
+        id: 36,
+        title: "H&M",
+        price: 1000,
+        img: "wt.1.png",
+        amount: 1,
+      },
+      {
+        id: 36,
+        title: "H&M",
+        price: 1000,
+        img: "wt.2.png",
+        amount: 1,
+      },
+
+      {
+        id: 36,
+        title: "H&M",
+        price: 1000,
+        img: "wt.3.png",
+        amount: 1,
+      },
+
+      {
+        id: 36,
+        title: "H&M",
+        price: 1000,
+        img: "k42.png",
+        amount: 1,
+      },
+      {
+        id: 36,
+        title: "H&M",
+        price: 1000,
+        img: "kd.2.png",
+        amount: 1,
+      },
+
+      {
+        id: 36,
+        title: "H&M",
+        price: 1000,
+        img: "kd.3.png",
+        amount: 1,
+      },
+
+      {
+        id: 36,
+        title: "H&M",
+        price: 1000,
+        img: "kd.4.png",
+        amount: 1,
+      },
+
+      {
+        id: 36,
+        title: "H&M",
+        price: 1000,
+        img: "kd.5.png",
+        amount: 1,
+      },
+
+      {
+        id: 36,
+        title: "H&M",
+        price: 1000,
+        img: "kd.6.png",
+        amount: 1,
+      },
+
+      {
+        id: 36,
+        title: "H&M",
+        price: 1000,
+        img: "k21.png",
+        amount: 1,
+      },
+
+      {
+        id: 36,
+        title: "H&M",
+        price: 1000,
+        img: "k22.png",
+        amount: 1,
+      },
+
+      {
+        id: 36,
+        title: "H&M",
+        price: 1000,
+        img: "k23.png",
+        amount: 1,
+      },
+
+      {
+        id: 36,
+        title: "H&M",
+       
+        price: 1000,
+        img: "k24.png",
+        amount: 1,
+      },
+
+      {
+        id: 36,
+        title: "H&M",
+        price: 1000,
+        img: "k25.png",
+        amount: 1,
+      },
+
+      {
+        id: 36,
+        title: "H&M",
+        price: 1000,
+        img: "k26.png",
+        amount: 1,
+      },
+
+      {
+        id: 36,
+        title: "H&M",
+        price: 1000,
+        img: "k27.png",
+        amount: 1,
+      },
+
+      {
+        id: 36,
+        title: "H&M",
+        price: 1000,
+        img: "k28.png",
+        amount: 1,
+      },
+
+      {
+        id: 36,
+        title: "H&M",     
+        price: 1000,
+        img: "k29.png",
+        amount: 1,
+      },
+
+      {
+        id: 36,
+        title: "H&M",     
+        price: 1000,
+        img: "ww2.png",
+        amount: 1,
+      },
+
+      {
+        id: 36,
+        title: "H&M",
+        price: 1000,
+        img: "ww1.png",
+        amount: 1,
+      },
+
+      {
+        id: 36,
+        title: "H&M",
+        price: 1000,
+        img: "k32.png",
+        amount: 1,
+      },
+
+      {
+        id: 36,
+        title: "H&M",
+        price: 1000,
+        img: "k33.png",
+        amount: 1,
+      },
+
+      {
+        id: 36,
+        title: "H&M",
+        price: 1000,
+        img: "k34.png",
+        amount: 1,
+      },
+
+      {
+        id: 36,
+        title: "H&M",
+        price: 1000,
+        img: "kk2.png",
+        amount: 1,
+      },
+
+      {
+        id: 36,
+        title: "H&M",
+        price: 1000,
+        img: "kk.png",
+        amount: 1,
+      },
+      {
+        id: 36,
+        title: "H&M",
+        price: 1000,
+        img: "ww.png",
+        amount: 1,
+      }, 
+
+  ];
+  export default list;
